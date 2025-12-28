@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.Testcases.DynamictableTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validateCPUvalue"/>
+          <include name="setup"/>
+          <include name="validatetitle"/>
+        </methods>
+      </class> <!-- com.qa.Testcases.DynamictableTest -->
+      <class name="com.qa.Testcases.HomepageTest">
+        <methods>
+          <include name="validatewebinput"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.Testcases.HomepageTest -->
+      <class name="TestSelenium.SWebdriverAutomation.TestChromeLaunch">
+        <methods>
+          <include name="Launchchrome"/>
+        </methods>
+      </class> <!-- TestSelenium.SWebdriverAutomation.TestChromeLaunch -->
+      <class name="com.qa.Testcases.TestRadiobutton">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="validatetitle"/>
+          <include name="Testradiobtnclick"/>
+        </methods>
+      </class> <!-- com.qa.Testcases.TestRadiobutton -->
+      <class name="com.qa.Testcases.WebinputTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyDisplayinput"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.Testcases.WebinputTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
